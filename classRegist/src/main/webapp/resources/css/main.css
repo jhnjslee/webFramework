@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+.formtable{
+	width: 400px;
+	border: 1px solid red;
+	margin: 50px;
+	padding: 10px;
+}
+
+.label{
+	text-align:right;
+	vertical-align:top;
+}
+
+.cotrol{
+	margin-left:10px;
+}
+
+textarea{
+	width:300px;
+	height:100px;
+}
+
+input[type=text]{
+	width:300px;
+}
+input[type=submit]{
+	display:block;
+	width:200px;
+	margin: 0 auto;
+}
+input[type=submit] :hover {
+	background-color: #45a049;
+	}
